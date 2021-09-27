@@ -1763,7 +1763,7 @@
 	        <!-- Labels -->
 
 	        <textarea name="ruleactivelbl" from="textarea_settings_option">
-	            <position>20,552</position>
+	            <position>20,644</position>
 	            <value>Recording Rule Active:</value>
 	        </textarea>
 	        
@@ -1806,9 +1806,14 @@
 	            <position>0,480</position>
 	            <helptext></helptext>
 	        </buttonlist>
+
+	        <buttonlist name="autoextend" from="selector_settings_wide">
+	            <position>0,552</position>
+	            <helptext></helptext>
+	        </buttonlist>
 		
 	        <checkbox name="ruleactive" from="checkbox_settings">
-	            <position>0,552</position>
+	            <position>0,644</position>
 	        </checkbox>
 	        
 	     </group>
